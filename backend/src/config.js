@@ -7,22 +7,31 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "Weediez";
+const description = "Weediez are made up of 5,000 characters all a part of a family in the business of growing THC plants. The more rare your charactes are the more they can produce, Which of the @8 Weediez familes do you represent?";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 10,
     layersOrder: [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Background Top Neon" },
+      { name: "Background Neon" },
+      { name: "Background Rare" },
+      { name: "Right Arm" },
+      { name: "Left Arm" },
+      { name: "Legs" },
+      { name: "Base" },
+      { name: "Base Top" },
+      { name: "Inner Leaf" },
+      { name: "Middle Leaf" },
+      { name: "Outter Leaf" },
+      { name: "Outter Nug" },
+      { name: "Family" },
+      { name: "Chain" },
+      
     ],
   },
 ];
@@ -32,13 +41,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2500,
+  height: 2500,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://weediez.xyz", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -49,8 +58,8 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'CRYPTOPUNKS';
-const CONTRACT_SYMBOL = 'CP';
+const CONTRACT_NAME = 'Weediez';
+const CONTRACT_SYMBOL = 'WDz';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
 const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
@@ -129,8 +138,8 @@ const pixelFormat = {
 };
 
 const background = {
-  generate: true,
-  brightness: "80%",
+  generate: false,
+  brightness: "0%",
   static: false,
   default: "#000000",
 };
