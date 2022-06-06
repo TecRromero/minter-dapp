@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Weediez";
-const description = "Weediez are made up of 5,000 characters all a part of a family in the business of growing THC plants. The more rare your charactes are the more they can produce, Which of the @8 Weediez familes do you represent?";
+const description = "Weediez are made up of 5,000  homegrown characters all a part of a  Greenhouse family. All the greenhouse familes produce their own strands of THC plants, which will provide the world with top notch quality weed. The more rare your homegrown characters are, the more they will produce. There are 28 Weediez greenhouse familes, who do you repersent?";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -84,7 +84,7 @@ let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually inclu
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "REPLACE THIS"; // Replace with what you want the generic descriptions to say.
+const GENERIC_DESCRIPTION = "Weediez are made up of 5,000  homegrown characters all a part of a  Greenhouse family. All the greenhouse familes produce their own strands of THC plants, which will provide the world with top notch quality weed. The more rare your homegrown characters are, the more they will produce. There are 28 Weediez greenhouse familes, who do you repersent?"; // Replace with what you want the generic descriptions to say.
 const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
