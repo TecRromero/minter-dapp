@@ -8,13 +8,13 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "Weediez";
-const description = "Weediez are made up of 5,000  homegrown characters all a part of a  Greenhouse family. All the greenhouse familes produce their own strands of THC plants, which will provide the world with top notch quality weed. The more rare your homegrown characters are, the more they will produce. There are 28 Weediez greenhouse familes, who do you repersent?";
+const description = "Weediez are made up of 5,000  homegrown characters all aart a  Greenhouse family. All the greenhouse familes produce their own strands of THC plants, which will provide the world with top notch quality weed. The more rare your homegrown characters are, the more they will produce. There are 28 Weediez greenhouse familes, who do you repersent?";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
+    growEditionSizeTo: 5000,
     layersOrder: [
       { name: "Background" },
       { name: "Background Top Neon" },
