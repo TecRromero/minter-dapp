@@ -59,33 +59,33 @@ const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Weediez';
-const CONTRACT_SYMBOL = 'WDz';
+const CONTRACT_SYMBOL = 'WDZ';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
-const OWNER_ADDRESS = 'YOUR WALLET ADDRESS HERE';
-const TREASURY_ADDRESS = 'YOUR WALLET ADDRESS HERE';
+const OWNER_ADDRESS = '0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E';
+const TREASURY_ADDRESS = '0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 1; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
-const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
-const ROYALTY_ADDRESS = "0xd8B808A887326F45B2D0cd999709Aa6264CeF919"; // Address that will receive the royalty
+const ROYALTY_ADDRESS = "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
+let CONTRACT_ADDRESS = "0xa698C1E70B2628E74Dcb4D1ed6d134cD719ae1D3"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "Weediez are made up of 5,000  homegrown characters all a part of a  Greenhouse family. All the greenhouse familes produce their own strands of THC plants, which will provide the world with top notch quality weed. The more rare your homegrown characters are, the more they will produce. There are 28 Weediez greenhouse familes, who do you repersent?"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = "There are 28 Weediez greenhouse familes, who do you repersent?"; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeidou3x4evwlpdg6wsp57epp6hg3r6afl4xiz2cpchfbhbwuor6pbq"; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
@@ -107,7 +107,7 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      address: "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E",
       share: 100,
     },
   ],
