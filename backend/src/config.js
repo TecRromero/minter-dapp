@@ -55,7 +55,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Weediez';
@@ -68,19 +68,21 @@ const MINT_PRICE = 0; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. 
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-06-07T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-07-17T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-06-08T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-06-13T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = [
   "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E",
-  "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E",
   "0x6a56eB53b66238C4877Ba4372bd7465186aCB3eC",
-"0x182cf12Bfb8e67Eab40d58c2F917C5CAEE14A985",];
+  "0x182cf12Bfb8e67Eab40d58c2F917C5CAEE14A985",
+  "0x4Bb8E9e10D4CA39CB8d8404f364fd3B7dBF6BB8c",
+  "0x7746DE0259e69531b5a35139C1416c3c06F7F10E",
+];
 // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
