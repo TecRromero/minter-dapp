@@ -64,7 +64,7 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E';
 const TREASURY_ADDRESS = '0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E';
 const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.0001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 0; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 5; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
@@ -79,7 +79,8 @@ const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the
 const PRESALE_WHITELISTED_ADDRESSES = [
   "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E",
   "0x5DaB02D3626e7f9F7449b895AC9c431F7278aD6E",
-  "0x6a56eB53b66238C4877Ba4372bd7465186aCB3eC",];
+  "0x6a56eB53b66238C4877Ba4372bd7465186aCB3eC",
+"0x182cf12Bfb8e67Eab40d58c2F917C5CAEE14A985",];
 // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
